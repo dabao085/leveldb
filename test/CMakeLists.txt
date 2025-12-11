@@ -22,3 +22,6 @@ configure_leveldb_test(write_test)
 
 add_executable(read_test test.cc)
 configure_leveldb_test(read_test)
+
+add_executable(log_writer_test log_writer_test.cc)
+configure_leveldb_test(log_writer_test)
